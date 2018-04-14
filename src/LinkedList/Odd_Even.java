@@ -1,7 +1,16 @@
-package LinkedList;
 
+/**
+ * Segreagate odd and even nodes in LinkedList and put all the odd nodes at the end
+ */
+
+package LinkedList;
 import java.util.*;
 
+/**
+ * 
+ * @author kunal
+ *
+ */
 	
 public class Odd_Even extends LinkedList{
 	

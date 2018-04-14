@@ -1,5 +1,17 @@
+
+/**
+ * Delete all the occurrences of a particular element
+ */
+
 package LinkedList;
 import java.util.*;
+
+/**
+ * 
+ * @author kunal
+ *
+ */
+
 public class Delete_key extends LinkedList{
 	
 	public void delete(int a)
@@ -9,15 +21,16 @@ public class Delete_key extends LinkedList{
 		
 		while(curr!=null)
 		{
-			if(curr.data == a)
+			if(curr.data == a) //if element is found
 			{
-				if(prev==null)
+				if(prev==null) //if there's no previous node
 					head = head.link;
 				else
 					prev.link = curr.link;
 			}
 			else
 				prev = curr;
+			
 			curr  = curr.link;
 				
 		}

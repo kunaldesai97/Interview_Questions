@@ -1,3 +1,8 @@
+
+/**
+ * Check if the LinkedList is a palindrome or not
+ */
+
 package LinkedList;
 import java.util.*;
 
@@ -99,10 +104,14 @@ public class Palindrome extends LinkedList{
 		list.display();
 		 
 		boolean res = list.isPalindrome();
-		System.out.println(res);
+		
+		if(res)
+			System.out.println("LinkedList is a Palindrome");
+		
+		else
+			System.out.println("LinkedList is not a Palindrome");
 		 
-		 
-		 
+		
 		
 	}
 
